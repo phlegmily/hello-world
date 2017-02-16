@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<widget xmlns = "https://www.w3.org/ns/widgets"
+		xmlns:gap = "https://phonegap.com/ns/1.0"
+		id = "org.laphonegap.helloworld"
+		versionCode = "10"
+		version = "1.0.0">
+		
+	<preference name="permissions" value="none">
+		
+	<name>Hello LA PhoneGap Example</name>
+
+	<description>
+		An example for phonegap usage.
+	</description>
+
+	<author href="https://laphonegap.org">
+		Geaorge McKinney
+	</author>
+	
+</widget>

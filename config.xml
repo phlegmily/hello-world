@@ -1,20 +1,58 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-	<widget xmlns = "https://www.w3.org/ns/widgets"
-		xmlns:gap = "https://phonegap.com/ns/1.0"
-		id = "org.laphonegap.helloworld"
-		versionCode = "10"
-		version = "1.0.0">
-		
-	<preference name="permissions" value="none">
-		
-	<name>Hello LA PhoneGap Example</name>
+<widget xmlns = "https://www.w3.org/ns/widgets"
+	xmlns:gap = "https://phonegap.com/ns/1.0"
+	id = "org.laphonegap.helloworld"
+	versionCode = "10"
+	version = "1.0.0">
+	
+<preference name="permissions" value="none"/>
 
-	<description>
-		An example for phonegap usage.
-	</description>
+<preference name="phonegap-version" value="1.9.0"/>
 
-	<author href="https://laphonegap.org">
-		Geaorge McKinney
-	</author>
+<icon src="laphonegap_icon.png"/>
+<!-- the default splash screen to use -->
+
+
+<!-- iOS -->
+
+
+<gap:splash src="laphonegap_splash.png" height="480" width="320"/>
+
+<gap:splash src="laphonegap_splash.png" height="960" width="640"/>
+
+<gap:splash src="laphonegap_splash.png" height="768" width="1024"/>
+
+<gap:splash src="laphonegap_splash.png" height="1024" width="768"/>
+
+<!-- Android -->
+
+
+<gap:splash src="laphonegap_splash.png" gap:density="ldpi" gap:platform="android"/>
+
+<gap:splash src="laphonegap_splash.png" gap:density="mdpi" gap:platform="android"/>
+
+<gap:splash src="laphonegap_splash.png" gap:density="hdpi" gap:platform="android"/>
+
+<gap:splash src="laphonegap_splash.png" gap:density="xhdpi" gap:platform="android"/>
+
+<!-- BlackBerry -->
+
+
+<gap:splash src="laphonegap_splash.png" gap:platform="blackberry"/>
+
+<!-- Windows Phone -->
+
+
+<gap:splash src="laphonegap_splash.jpg" gap:platform="winphone"/>
+	
+<name>Hello LA PhoneGap Example</name>
+
+<description>
+	An example for phonegap usage.
+</description>
+
+<author href="https://laphonegap.org">
+	Geaorge McKinney
+</author>
 	
 </widget>
